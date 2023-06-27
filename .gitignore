@@ -1,19 +1,17 @@
 *~
 *.swp
 *.swo
-
 isaac
 
 !home/
 home/*
-
-!home/catkin_ws
-home/catkin_ws/*
-
-!home/catkin_ws/src
-home/catkin_ws/src/*
-
 !home/.bashrc
-!home/catkin_ws/src/CMakeLists.txt
+
+!workdir
+workdir/*
+
+!workdir/tmp
+workdir/tmp/*
+!workdir/tmp/.gitkeep
 
 
