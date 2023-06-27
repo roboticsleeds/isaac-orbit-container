@@ -1,7 +1,7 @@
 # IsaacSim Singularity Container with ROS Noetic
 
-This is a singularity container for the NVidia Isaac Simulator. It builds
-on top of NVidia's official image and it installs ROS Noetic on top.
+This is a singularity container for the Nvidia Isaac Sim. It builds
+on top of Nvidia's official image, but also installs ROS Noetic.
 
 *"Isaac Sim" is a registered trademark of Nvidia. We would like to clarify 
 that we have no affiliation, partnership, or endorsement with Nvidia or the Isaac 
