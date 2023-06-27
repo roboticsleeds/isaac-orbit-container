@@ -14,6 +14,9 @@ informational purposes and do not imply any official association with Nvidia.*
 
 Building this container will require authentication with NGC.
 
+First, make sure Singularity is installed on your computer. Follow the "Quick
+Installation Steps" guide [here](https://docs.sylabs.io/guides/3.11/user-guide/quick_start.html).
+
 Here are the steps:
 
 1. First create an NGC account here: [https://ngc.nvidia.com/](https://ngc.nvidia.com/).
@@ -41,3 +44,12 @@ to the actual API token generated above.
    This is the way of "ticking" the "I accept EULA" for the license linked above.
 1. To launch Isaac Sim you need to head to `cd /isaac-sim` (note to the root dir `/`) 
    and run `./runapp.sh` within the container. Allow some time to download dependencies.
+
+
+## Other notes
+
+* Make sure that nvidia drivers and CUDA are installed on your host machine;
+verify by running `nvidia-smi`.
+* The `run.sh` script will bind the drivers if available; double check they
+are available in the container by running `nvidia-smi` within the container 
+as well.
