@@ -13,6 +13,7 @@ singularity run \
     --bind=/run/user/${UID} \
     --bind=$HOME/.ssh \
     --home=home:${HOME} \
+    -B /tmp \
     isaac
 
 

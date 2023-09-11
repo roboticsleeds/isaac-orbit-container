@@ -44,7 +44,7 @@ rosdep update
 CUSTOM_ENV=/.singularity.d/env/99-zz_custom_env.sh
 cat >$CUSTOM_ENV <<EOF
 #!/bin/bash
-PS1="[IsaacSim] Singularity> \w \$ "
+PS1="[Isaac Orbit] Singularity> \w \$ "
 EOF
 chmod 755 $CUSTOM_ENV
 
