@@ -7,6 +7,7 @@ apt-get -y upgrade
 
 apt-get install -y --force-yes \
     wget \
+    ffmpeg \
     vim-gtk \
     zip \
     unzip \
